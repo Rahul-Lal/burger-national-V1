@@ -22,17 +22,52 @@
             <TabControl.Background>
                 <ImageBrush Stretch="Fill"/>
             </TabControl.Background>
-            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="22" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0"/>
-            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0">
+            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="22" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="FloralWhite" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
             </TabItem>
-            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0">
+            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="FloralWhite" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
             </TabItem>
-            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0">
+            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="FloralWhite" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
             </TabItem>
-            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0">
+            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="FloralWhite" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
             </TabItem>
-            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0">
+            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="FloralWhite" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
             </TabItem>
+            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="FloralWhite"/>
         </TabControl>
+        <Label Content="TOTAL: " HorizontalAlignment="Left" Margin="0,844,0,0" VerticalAlignment="Top" Height="69" Width="227" FontSize="36" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed"/>
+        <TextBox x:Name="txtTotal" IsReadOnly="True" HorizontalAlignment="Left" Margin="227,844,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Width="196" Height="68" FontSize="36" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed"/>
+
+        <Button x:Name="btnClearOrder" Content="Clear Order" HorizontalAlignment="Left" Margin="0,912,0,0" VerticalAlignment="Top" Height="168" Width="227" Click="btnClearOrder_Click" FontSize="24"/>
+        <Button x:Name="btnPayment" Click="btnPayment_Click" Content="Pay" HorizontalAlignment="Left" Margin="224,912,0,0" VerticalAlignment="Top" Height="168" Width="221" FontSize="24" />
     </Grid>
 </Page>

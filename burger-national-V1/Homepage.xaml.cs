@@ -22,5 +22,15 @@ namespace burger_national_V1
         {
             InitializeComponent();
         }
+
+        private void btnPayment_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnClearOrder_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
