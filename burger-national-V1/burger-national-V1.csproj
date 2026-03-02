@@ -9,4 +9,218 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\Images\burger-national-logo.png" />
+    <None Remove="Assets\Images\Chicken+Others\Baja.png" />
+    <None Remove="Assets\Images\Chicken+Others\Bangkok Satay.png" />
+    <None Remove="Assets\Images\Chicken+Others\Bombay.png" />
+    <None Remove="Assets\Images\Chicken+Others\Havana.png" />
+    <None Remove="Assets\Images\Chicken+Others\Kyoto Katsu.png" />
+    <None Remove="Assets\Images\Chicken+Others\Marrakesh.png" />
+    <None Remove="Assets\Images\Chicken+Others\Nashville Hot.png" />
+    <None Remove="Assets\Images\Chicken+Others\Nordic.png" />
+    <None Remove="Assets\Images\Chicken+Others\Oaxaca.png" />
+    <None Remove="Assets\Images\Chicken+Others\Seoul Fire.png" />
+    <None Remove="Assets\Images\Combo\Fiesta Box.png" />
+    <None Remove="Assets\Images\Combo\Group Tour.png" />
+    <None Remove="Assets\Images\Combo\Kyoto Nights.png" />
+    <None Remove="Assets\Images\Combo\Liberty Box.png" />
+    <None Remove="Assets\Images\Combo\Venetian Bite.png" />
+    <None Remove="Assets\Images\Desserts\Apple Pie.png" />
+    <None Remove="Assets\Images\Desserts\Baklava Bites.png" />
+    <None Remove="Assets\Images\Desserts\Churro Cinnamon Shake.png" />
+    <None Remove="Assets\Images\Desserts\Churros.png" />
+    <None Remove="Assets\Images\Desserts\Creme Brulee.png" />
+    <None Remove="Assets\Images\Desserts\Dubai Chocolate Shake.png" />
+    <None Remove="Assets\Images\Desserts\Dulce De Leche Shake.png" />
+    <None Remove="Assets\Images\Desserts\Mango Lassi Shake.png" />
+    <None Remove="Assets\Images\Desserts\Matcha Shake.png" />
+    <None Remove="Assets\Images\Desserts\Mochi Ice Cream.png" />
+    <None Remove="Assets\Images\Desserts\Pandan Coconut Shake.png" />
+    <None Remove="Assets\Images\Desserts\Tiramisu Cup.png" />
+    <None Remove="Assets\Images\Desserts\Tiramisu Shake.png" />
+    <None Remove="Assets\Images\European-Burgers\Double Kaiser.png" />
+    <None Remove="Assets\Images\European-Burgers\Double Matador.png" />
+    <None Remove="Assets\Images\European-Burgers\Double Olympian.png" />
+    <None Remove="Assets\Images\European-Burgers\Double Parisian.png" />
+    <None Remove="Assets\Images\European-Burgers\Double Roma.png" />
+    <None Remove="Assets\Images\European-Burgers\Kaiser Burger.png" />
+    <None Remove="Assets\Images\European-Burgers\Matador Burger.png" />
+    <None Remove="Assets\Images\European-Burgers\Olympian Burger.png" />
+    <None Remove="Assets\Images\European-Burgers\Parisan Burger.png" />
+    <None Remove="Assets\Images\European-Burgers\Roma Burger.png" />
+    <None Remove="Assets\Images\Money\Fifty.jpg" />
+    <None Remove="Assets\Images\Money\Five.jpg" />
+    <None Remove="Assets\Images\Money\One Hundred.jpg" />
+    <None Remove="Assets\Images\Money\Ten.jpg" />
+    <None Remove="Assets\Images\Money\Twenty.jpg" />
+    <None Remove="Assets\Images\Sides\Delicious Poutine in Takeout Box.png" />
+    <None Remove="Assets\Images\Sides\Garlic Bread.png" />
+    <None Remove="Assets\Images\Sides\Large Fries.png" />
+    <None Remove="Assets\Images\Sides\Loaded Nachos with Spicy Toppings.png" />
+    <None Remove="Assets\Images\Sides\Medium Fries.png" />
+    <None Remove="Assets\Images\Sides\Mozzerella Sticks.png" />
+    <None Remove="Assets\Images\Sides\Small Fries.png" />
+    <None Remove="Assets\Images\Sides\Spring Roll.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\burger-national-logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Baja.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Bangkok Satay.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Bombay.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Havana.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Kyoto Katsu.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Marrakesh.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Nashville Hot.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Nordic.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Oaxaca.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Chicken+Others\Seoul Fire.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Combo\Fiesta Box.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Combo\Group Tour.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Combo\Kyoto Nights.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Combo\Liberty Box.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Combo\Venetian Bite.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Apple Pie.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Baklava Bites.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Churro Cinnamon Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Churros.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Creme Brulee.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Dubai Chocolate Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Dulce De Leche Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Mango Lassi Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Matcha Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Mochi Ice Cream.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Pandan Coconut Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Tiramisu Cup.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Desserts\Tiramisu Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Double Kaiser.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Double Matador.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Double Olympian.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Double Parisian.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Double Roma.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Kaiser Burger.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Matador Burger.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Olympian Burger.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Parisan Burger.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\European-Burgers\Roma Burger.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Money\Fifty.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Money\Five.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Money\One Hundred.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Money\Ten.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Money\Twenty.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Delicious Poutine in Takeout Box.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Garlic Bread.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Large Fries.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Loaded Nachos with Spicy Toppings.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Medium Fries.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Mozzerella Sticks.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Small Fries.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Sides\Spring Roll.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
