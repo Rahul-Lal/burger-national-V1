@@ -14,5 +14,20 @@
                 <TextBlock x:Name="txtPrices" TextWrapping="Wrap" FontSize="20" Width="75" MaxHeight="1080" Background="#FFBBBBBB" Foreground="#FF0058CE" TextAlignment="Right" Height="1078" VerticalAlignment="Top" />
             </StackPanel>
         </ScrollViewer>
+
+        <TabControl Margin="421,0,0,167" HorizontalAlignment="Left" Width="1536">
+            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="16" HorizontalAlignment="Left" Margin="-1,0,0,0">
+            </TabItem>
+            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="16">
+            </TabItem>
+            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="16">
+            </TabItem>
+            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="16">
+            </TabItem>
+            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="16">
+            </TabItem>
+            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="16">
+            </TabItem>
+        </TabControl>
     </Grid>
 </Page>
