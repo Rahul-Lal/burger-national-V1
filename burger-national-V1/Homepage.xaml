@@ -29,6 +29,30 @@
                         <GradientStop Color="FloralWhite" Offset="1"/>
                     </LinearGradientBrush>
                 </TabItem.Background>
+                <Grid HorizontalAlignment="Left" Width="1498" Height="818" VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnSingleOlympian" Content="Single Olympian" Width="280" Height="320" FontSize="16" HorizontalAlignment="Center" Click="btnSingleOlympian_Click" VerticalAlignment="Center"/>
+                    <Button x:Name="btnDoubleOlympian" Content="Double Olympian" Width="280" Height="320" FontSize="16" VerticalAlignment="Center" Click="btnDoubleOlympian_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="1" HorizontalAlignment="Center"/>
+                    <Button x:Name="btnSingleParisian" Content="Single Parisian" Width="280" Height="320" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleParisian_Click" Grid.Column="2"/>
+                    <Button x:Name="btnDoubleParisian" Content="Double Parisian" Width="280" Height="320" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDoubleParisian_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3"/>
+                    <Button x:Name="btnSingleRoma" Content="Single Roma" Width="280" Height="320" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleRoma_Click" Grid.Column="4"/>
+                    <Button x:Name="btnDoubleRoma" Content="Double Roma" Height="320" FontSize="16" VerticalAlignment="Center" Click="btnDoubleRoma_Click" Width="280" Grid.Row="1" RenderTransformOrigin="0.167,0.55" HorizontalAlignment="Center"/>
+                    <Button x:Name="btnSingleMatador" Content="Single Matador" Width="280" Height="320" FontSize="16" VerticalAlignment="Center" Click="btnSingleMatador_Click" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center"/>
+                    <Button x:Name="btnDoubleMatador" Content="Double Matador" Width="280" Height="320" FontSize="16" VerticalAlignment="Center" Click="btnDoubleMatador_Click" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center"/>
+                    <Button x:Name="btnSingleKaiser" Content="Single Kaiser" Width="280" Height="320" FontSize="16" VerticalAlignment="Center" Click="btnSingleKaiser_Click" RenderTransformOrigin="0.582,0.52" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center"/>
+                    <Button x:Name="btnDoubleKaiser" Content="Double Kaiser" Width="280" Height="320" FontSize="16" VerticalAlignment="Center" Click="btnDoubleKaiser_Click" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center"/>
+                </Grid>
             </TabItem>
             <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
                 <TabItem.Background>
