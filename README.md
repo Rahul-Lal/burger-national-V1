@@ -1,6 +1,6 @@
-# 🍔 Burger Notion POS – Version 1
+# 🍔 Burger National POS – Version 1
 
-Burger Notion POS is a desktop Point of Sale (POS) system built using WPF (Windows Presentation Foundation) and C# (.NET).
+Burger National POS is a desktop Point of Sale (POS) system built using WPF (Windows Presentation Foundation) and C# (.NET).
 
 Version 1 focuses on building a fully functional ordering interface without a database. All menu items, pricing logic, and customisation flows are handled in application memory.
 
@@ -40,9 +40,9 @@ The goal of this version is to establish:
 
 ## 📦 Project Structure
 
-BurgerNotionPOS/
+BurgerNationalPOS/
 │
-├── BurgerNotionPOS.sln
+├── BurgerNationalPOS.sln
 ├── /Views
 ├── /Models
 ├── /Logic
