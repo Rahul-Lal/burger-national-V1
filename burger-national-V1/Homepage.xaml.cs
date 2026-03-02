@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -12,11 +14,11 @@ using System.Windows.Shapes;
 namespace burger_national_V1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Homepage.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class Homepage : Page
     {
-        public MainWindow()
+        public Homepage()
         {
             InitializeComponent();
         }

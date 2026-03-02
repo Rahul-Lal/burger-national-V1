@@ -5,5 +5,5 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:burger_national_V1"
         mc:Ignorable="d" ShowsNavigationUI="False"
-        Title="Burger National" WindowState="Maximized" WindowStyle="None" Source="HomePage.xaml">
+        Title="Burger National" WindowState="Maximized" WindowStyle="None" Source="Homepage.xaml">
 </NavigationWindow>
