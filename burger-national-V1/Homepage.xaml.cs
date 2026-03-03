@@ -32,5 +32,55 @@ namespace burger_national_V1
         {
 
         }
+
+        private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSingleParisian_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDoubleParisian_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDoubleRoma_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDoubleMatador_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDoubleKaiser_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
