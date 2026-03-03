@@ -39,6 +39,13 @@
     <None Remove="Assets\Images\Desserts\Pandan Coconut Shake.png" />
     <None Remove="Assets\Images\Desserts\Tiramisu Cup.png" />
     <None Remove="Assets\Images\Desserts\Tiramisu Shake.png" />
+    <None Remove="Assets\Images\Drinks\Coca-Cola.jpg" />
+    <None Remove="Assets\Images\Drinks\CokeNS.jpg" />
+    <None Remove="Assets\Images\Drinks\IrnBru.jpg" />
+    <None Remove="Assets\Images\Drinks\Jarritos.jpg" />
+    <None Remove="Assets\Images\Drinks\LnP.jpg" />
+    <None Remove="Assets\Images\Drinks\Sparletta.png" />
+    <None Remove="Assets\Images\Drinks\ting.jpg" />
     <None Remove="Assets\Images\European-Burgers\Double Kaiser.png" />
     <None Remove="Assets\Images\European-Burgers\Double Matador.png" />
     <None Remove="Assets\Images\European-Burgers\Double Olympian.png" />
@@ -150,6 +157,27 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Images\Desserts\Tiramisu Shake.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\Coca-Cola.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\CokeNS.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\IrnBru.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\Jarritos.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\LnP.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\Sparletta.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Images\Drinks\ting.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Assets\Images\European-Burgers\Double Kaiser.png">
