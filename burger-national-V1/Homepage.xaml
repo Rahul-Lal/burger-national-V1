@@ -22,7 +22,7 @@
             <TabControl.Background>
                 <ImageBrush Stretch="Fill"/>
             </TabControl.Background>
-            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="22" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF0957D6">
+            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="28" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF0957D6">
                 <Grid HorizontalAlignment="Left" Width="1498" Height="818" VerticalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
@@ -88,11 +88,11 @@
                     </Button>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF10A928"/>
-            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFFFD02D"/>
-            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF4400C3"/>
-            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFD47500"/>
-            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="17.5" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
+            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF10A928"/>
+            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFFFD02D"/>
+            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF4400C3"/>
+            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFD47500"/>
+            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="27" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
         </TabControl>
 
 
@@ -115,7 +115,7 @@
             </TextBox.BorderBrush>
         </TextBox>
 
-        <Button x:Name="btnClearOrder" Content="Clear Order" HorizontalAlignment="Left" Margin="423,0,0,0" VerticalAlignment="Bottom" Height="168" Width="280" Click="btnClearOrder_Click" FontSize="24" RenderTransformOrigin="1.845,0.412"/>
+        <Button x:Name="btnClearOrder" Content="Clear Order" HorizontalAlignment="Left" Margin="423,0,0,0" VerticalAlignment="Bottom" Height="162" Width="280" Click="btnClearOrder_Click" FontSize="24" RenderTransformOrigin="1.845,0.412"/>
         <Button x:Name="btnPayment" Click="btnPayment_Click" Content="PAY" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="162" Width="423" FontSize="48" Background="DarkRed" Foreground="FloralWhite" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" />
     </Grid>
 </Page>
