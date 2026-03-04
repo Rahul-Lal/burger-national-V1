@@ -35,7 +35,7 @@ namespace burger_national_V1
 
         private void btnMediumCombo_Click(object sender, RoutedEventArgs e)
         {
-            makeLarge = true;
+            makeMedium = true;
             this.Close();
         }
 

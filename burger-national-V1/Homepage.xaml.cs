@@ -72,37 +72,37 @@ namespace burger_national_V1
 
         private void multiChoiceComboDeal(string title, string burger1, string burger2, string side, string dessert, double price)
         {
-            string finalBurgerChoice = "";
+            //string finalBurgerChoice = "";
 
-            BurgerChoiceWindow burgerChoice = new BurgerChoiceWindow();
-            burgerChoice.btnOptionOne.Content = burger1;
-            burgerChoice.btnOptionTwo.Content = burger2;
-            burgerChoice.ShowDialog();
+            //BurgerChoiceWindow burgerChoice = new BurgerChoiceWindow();
+            //burgerChoice.btnOptionOne.Content = burger1;
+            //burgerChoice.btnOptionTwo.Content = burger2;
+            //burgerChoice.ShowDialog();
 
-            if (burgerChoice.isOptionOne == true)
-            {
-                finalBurgerChoice = burger1;
-                burgerChoice.isOptionOne = false;
-            }
-            else if (burgerChoice.isOptionTwo == true)
-            {
-                finalBurgerChoice = burger2;
-                burgerChoice.isOptionTwo = false;
-            }
-            else
-            {
-                finalBurgerChoice = burger1;
-            }
+            //if (burgerChoice.isOptionOne == true)
+            //{
+            //    finalBurgerChoice = burger1;
+            //    burgerChoice.isOptionOne = false;
+            //}
+            //else if (burgerChoice.isOptionTwo == true)
+            //{
+            //    finalBurgerChoice = burger2;
+            //    burgerChoice.isOptionTwo = false;
+            //}
+            //else
+            //{
+            //    finalBurgerChoice = burger1;
+            //}
 
-            txtOutput.Text += title + "\n";
-            txtOutput.Text += finalBurgerChoice + "\n";
-            txtOutput.Text += side + "\n";
-            txtOutput.Text += dessert + "\n";
-            txtOutput.Text += "Small Drink\n";
-            total += price;
+            //txtOutput.Text += title + "\n";
+            //txtOutput.Text += finalBurgerChoice + "\n";
+            //txtOutput.Text += side + "\n";
+            //txtOutput.Text += dessert + "\n";
+            //txtOutput.Text += "Small Drink\n";
+            //total += price;
 
-            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
-            totalAmount(total);
+            //txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
+            //totalAmount(total);
         }
 
         private void comboOption(string burger, double price)
@@ -182,52 +182,62 @@ namespace burger_national_V1
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Olympian", 12.50);
         }
 
         private void btnDoubleOlympian_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Olympian", 14.50);
         }
 
         private void btnSingleParisian_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Parisian", 12.50);
         }
 
         private void btnDoubleParisian_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Parisian", 14.50);
         }
 
         private void btnSingleRoma_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Roma", 12.50);
         }
 
         private void btnDoubleRoma_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Roma", 14.50);
         }
 
         private void btnSingleMatador_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Matador", 12.50);
         }
 
         private void btnDoubleMatador_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Matador", 14.50);
         }
 
         private void btnSingleKaiser_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Single Kaiser", 12.50);
         }
 
         private void btnDoubleKaiser_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow makeCombo = new MakeComboWindow();
+            comboOption("Double Kaiser", 14.50);
         }
     }
 }
