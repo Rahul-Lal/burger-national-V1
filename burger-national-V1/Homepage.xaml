@@ -36,55 +36,52 @@
                         <ColumnDefinition Width="300*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button x:Name="btnSingleOlympian" Content="Single Olympian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" Click="btnSingleOlympian_Click" VerticalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnSingleOlympian" Content="Single Olympian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" Click="btnSingleOlympian_Click" VerticalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Olympian Burger.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Olympian Burger.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDoubleOlympian" Content="Double Olympian" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleOlympian_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnDoubleOlympian" Content="Double Olympian" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleOlympian_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="1" HorizontalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
                             <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Olympian.png" Opacity="0.75"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnSingleParisian" Content="Single Parisian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleParisian_Click" Grid.Column="2" FontFamily="Bahnschrift">
-                        <Button.Foreground>
-                            <ImageBrush/>
-                        </Button.Foreground>
+                    <Button x:Name="btnSingleParisian" Content="Single Parisian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleParisian_Click" Grid.Column="2" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Parisan Burger.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Parisan Burger.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDoubleParisian" Content="Double Parisian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDoubleParisian_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3" FontFamily="Bahnschrift">
+                    <Button x:Name="btnDoubleParisian" Content="Double Parisian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDoubleParisian_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Parisian.png"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Parisian.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnSingleRoma" Content="Single Roma" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleRoma_Click" Grid.Column="4" FontFamily="Bahnschrift">
+                    <Button x:Name="btnSingleRoma" Content="Single Roma" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleRoma_Click" Grid.Column="4" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Roma Burger.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Roma Burger.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDoubleRoma" Content="Double Roma" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleRoma_Click" Width="280" Grid.Row="1" RenderTransformOrigin="0.167,0.55" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnDoubleRoma" Content="Double Roma" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleRoma_Click" Width="280" Grid.Row="1" RenderTransformOrigin="0.167,0.55" HorizontalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Roma.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Roma.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnSingleMatador" Content="Single Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleMatador_Click" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnSingleMatador" Content="Single Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleMatador_Click" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Matador Burger.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Matador Burger.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDoubleMatador" Content="Double Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleMatador_Click" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnDoubleMatador" Content="Double Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleMatador_Click" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Matador.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Matador.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnSingleKaiser" Content="Single Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleKaiser_Click" RenderTransformOrigin="0.582,0.52" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnSingleKaiser" Content="Single Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleKaiser_Click" RenderTransformOrigin="0.582,0.52" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
-                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Kaiser Burger.png" Opacity="0.75"/>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Kaiser Burger.png" Opacity="0.84"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDoubleKaiser" Content="Double Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleKaiser_Click" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                    <Button x:Name="btnDoubleKaiser" Content="Double Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleKaiser_Click" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift" Foreground="FloralWhite" FontWeight="SemiBold">
                         <Button.Background>
                             <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Kaiser.png" Opacity="0.75"/>
                         </Button.Background>
