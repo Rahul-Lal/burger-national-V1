@@ -29,7 +29,7 @@ namespace burger_national_V1
 
         public double total = 0.00;
 
-        public void ClearOutput()
+        public void clearOutput()
         {
             txtOutput.Text = "";
             txtPrices.Text = "";
@@ -177,7 +177,7 @@ namespace burger_national_V1
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
         {
-
+            clearOutput();
         }
 
         private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
