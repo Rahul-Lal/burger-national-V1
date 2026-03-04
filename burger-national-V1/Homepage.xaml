@@ -22,13 +22,7 @@
             <TabControl.Background>
                 <ImageBrush Stretch="Fill"/>
             </TabControl.Background>
-            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="22" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
-                <TabItem.Background>
-                    <LinearGradientBrush EndPoint="0,1">
-                        <GradientStop Color="#FFF0F0F0"/>
-                        <GradientStop Color="FloralWhite" Offset="1"/>
-                    </LinearGradientBrush>
-                </TabItem.Background>
+            <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="22" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF0957D6">
                 <Grid HorizontalAlignment="Left" Width="1498" Height="818" VerticalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
@@ -97,39 +91,11 @@
                     </Button>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
-                <TabItem.Background>
-                    <LinearGradientBrush EndPoint="0,1">
-                        <GradientStop Color="#FFF0F0F0"/>
-                        <GradientStop Color="FloralWhite" Offset="1"/>
-                    </LinearGradientBrush>
-                </TabItem.Background>
-            </TabItem>
-            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
-                <TabItem.Background>
-                    <LinearGradientBrush EndPoint="0,1">
-                        <GradientStop Color="#FFF0F0F0"/>
-                        <GradientStop Color="FloralWhite" Offset="1"/>
-                    </LinearGradientBrush>
-                </TabItem.Background>
-            </TabItem>
-            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
-                <TabItem.Background>
-                    <LinearGradientBrush EndPoint="0,1">
-                        <GradientStop Color="#FFF0F0F0"/>
-                        <GradientStop Color="FloralWhite" Offset="1"/>
-                    </LinearGradientBrush>
-                </TabItem.Background>
-            </TabItem>
-            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
-                <TabItem.Background>
-                    <LinearGradientBrush EndPoint="0,1">
-                        <GradientStop Color="#FFF0F0F0"/>
-                        <GradientStop Color="FloralWhite" Offset="1"/>
-                    </LinearGradientBrush>
-                </TabItem.Background>
-            </TabItem>
-            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="17.5" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="FloralWhite"/>
+            <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF10A928"/>
+            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFFFD02D"/>
+            <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF4400C3"/>
+            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFD47500"/>
+            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="17.5" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
         </TabControl>
 
 
