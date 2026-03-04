@@ -60,13 +60,41 @@
                             <ImageBrush ImageSource="/Assets/Images/European-Burgers/Parisan Burger.png" Opacity="0.75"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDoubleParisian" Content="Double Parisian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDoubleParisian_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3" FontFamily="Bahnschrift"/>
-                    <Button x:Name="btnSingleRoma" Content="Single Roma" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleRoma_Click" Grid.Column="4" FontFamily="Bahnschrift"/>
-                    <Button x:Name="btnDoubleRoma" Content="Double Roma" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleRoma_Click" Width="280" Grid.Row="1" RenderTransformOrigin="0.167,0.55" HorizontalAlignment="Center" FontFamily="Bahnschrift"/>
-                    <Button x:Name="btnSingleMatador" Content="Single Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleMatador_Click" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift"/>
-                    <Button x:Name="btnDoubleMatador" Content="Double Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleMatador_Click" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift"/>
-                    <Button x:Name="btnSingleKaiser" Content="Single Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleKaiser_Click" RenderTransformOrigin="0.582,0.52" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" FontFamily="Bahnschrift"/>
-                    <Button x:Name="btnDoubleKaiser" Content="Double Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleKaiser_Click" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift"/>
+                    <Button x:Name="btnDoubleParisian" Content="Double Parisian" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDoubleParisian_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Parisian.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnSingleRoma" Content="Single Roma" Width="280" Height="320" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSingleRoma_Click" Grid.Column="4" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Roma Burger.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnDoubleRoma" Content="Double Roma" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleRoma_Click" Width="280" Grid.Row="1" RenderTransformOrigin="0.167,0.55" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Roma.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnSingleMatador" Content="Single Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleMatador_Click" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Matador Burger.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnDoubleMatador" Content="Double Matador" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleMatador_Click" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Matador.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnSingleKaiser" Content="Single Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnSingleKaiser_Click" RenderTransformOrigin="0.582,0.52" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Kaiser Burger.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnDoubleKaiser" Content="Double Kaiser" Width="280" Height="320" FontSize="30" VerticalAlignment="Center" Click="btnDoubleKaiser_Click" Grid.Column="4" Grid.Row="1" HorizontalAlignment="Center" FontFamily="Bahnschrift">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/European-Burgers/Double Kaiser.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
                 </Grid>
             </TabItem>
             <TabItem x:Name="btnChickenOther" Header="Chicken + Other" Width="250" Height="100" FontSize="22" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed">
