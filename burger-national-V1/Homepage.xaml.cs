@@ -242,52 +242,62 @@ namespace burger_national_V1
 
         private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Nashville Hot Chicken", 10.50);
         }
 
         private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Kyoto Katsu", 12.50);
         }
 
         private void btnMarrakesh_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Marrakesh Chicken", 14.50);
         }
 
         private void btnBaja_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Baja Chicken", 14.50);
         }
 
         private void btnSeoulFire_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Seoul Fire", 14.50);
         }
 
         private void btnBangkokSatay_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Bangkok Satay Chicken", 12.50);
         }
 
         private void btnOaxaca_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Oaxaca Veggie", 10.50);
         }
 
         private void btnBombay_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Bombay Veggie", 12.50);
         }
 
         private void btnNordic_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Nordic Salmon", 12.50);
         }
 
         private void btnHavana_Click(object sender, RoutedEventArgs e)
         {
-
+            MakeComboWindow MakeCombo = new MakeComboWindow();
+            comboOption("Havana Fish", 12.50);
         }
     }
 }

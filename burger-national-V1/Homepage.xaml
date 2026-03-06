@@ -156,7 +156,23 @@
                     </Button>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFFFD02D"/>
+            <TabItem x:Name="btnSides" Header="Sides" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFFFD02D">
+                <Grid HorizontalAlignment="Left" Width="1498" Height="805" VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+                
+                
+            </TabItem>
             <TabItem x:Name="btnDesserts" Header="Desserts" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF4400C3"/>
             <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFD47500"/>
             <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="27" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
