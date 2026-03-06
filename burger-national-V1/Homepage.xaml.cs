@@ -28,6 +28,8 @@ namespace burger_national_V1
         bool isDrinkLarge = false;
 
         public double total = 0.00;
+public double subTotal = 0.00;
+ public double GST = 0.00;
 
         public void clearOutput()
         {
@@ -40,6 +42,14 @@ namespace burger_national_V1
         private void totalAmount(double amount)
         {
             txtTotal.Text = total.ToString("C");
+
+subtotal = total ÷ 1.15;
+GST = total - subTotal;
+
+txtSubTotal.Text = subTotal.ToString("C");
+txt;
+txtGST.Text = GST.ToString("C");
+
         }
 
         private void setDrinkSize()
