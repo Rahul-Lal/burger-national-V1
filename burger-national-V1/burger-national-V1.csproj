@@ -69,6 +69,7 @@
     <None Remove="Assets\Images\Sides\Mozzerella Sticks.png" />
     <None Remove="Assets\Images\Sides\Small Fries.png" />
     <None Remove="Assets\Images\Sides\Spring Roll.png" />
+    <None Remove="Delicious Poutine in Takeout Box.png" />
   </ItemGroup>
 
   <ItemGroup>
