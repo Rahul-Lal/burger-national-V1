@@ -311,42 +311,42 @@ namespace burger_national_V1
 
         private void btnSmallFries_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Small Fries", 3.0);
         }
 
         private void btnMediumFries_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Medium Fries", 4.5);
         }
 
         private void btnLargeFries_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Large Fries", 5.0);
         }
 
         private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Garlic Bread", 4.5);
         }
 
         private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Mozzarella Sticks", 5.0);
         }
 
         private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Spring Rolls", 5.0);
         }
 
         private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Loaded Nachos", 6.5);
         }
 
         private void btnPoutine_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Poutine", 6.5);
         }
     }
 }
