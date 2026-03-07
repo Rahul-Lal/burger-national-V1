@@ -308,5 +308,45 @@ namespace burger_national_V1
             MakeComboWindow MakeCombo = new MakeComboWindow();
             comboOption("Havana Fish", 12.50);
         }
+
+        private void btnSmallFries_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumFries_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeFries_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPoutine_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
