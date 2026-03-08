@@ -227,67 +227,73 @@
                         <ColumnDefinition Width="214*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Button x:Name="btnApplePie" Content="Apple Pie" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnApplePie_Click">
+                    <Button x:Name="btnApplePie" Content="Apple Pie" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnApplePie_Click">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Apple Pie.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnChurros" Content="Churros" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnChurros_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="1">
+                    <Button x:Name="btnChurros" Content="Churros" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnChurros_Click" RenderTransformOrigin="-0.356,0.981" Grid.Column="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Churros.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnTiramisuCup" Content="Tiramisu Cup" Width="204" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnTiramisuCup_Click" Grid.Column="2">
+                    <Button x:Name="btnTiramisuCup" Content="Tiramisu Cup" Width="204" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnTiramisuCup_Click" Grid.Column="2">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Tiramisu Cup.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMochiIceCream" Content="Mochi Ice-Cream" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMochiIceCream_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3">
+                    <Button x:Name="btnMochiIceCream" Width="194" Height="325" FontSize="30" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMochiIceCream_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="3">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Mochi Ice Cream.png"/>
                         </Button.Background>
+                        <Viewbox Stretch="Uniform">
+                            <TextBlock Text="Mochi Ice-Cream" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Bahnschrift" FontWeight="Bold" />
+                        </Viewbox>
                     </Button>
-                    <Button x:Name="btnCremeBrulee" Content="Creme Brulee" Width="194" Height="325" FontSize="16" Margin="5,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnCremeBrulee_Click" Grid.Column="4">
+                    <Button x:Name="btnCremeBrulee" Content="Creme Brulee" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="5,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnCremeBrulee_Click" Grid.Column="4">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Creme Brulee.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnBaklavaBites" Content="Baklava Bites" Height="325" FontSize="16" Margin="0,10,0,0" VerticalAlignment="Center" Click="btnBaklavaBites_Click" HorizontalAlignment="Center" Width="194" RenderTransformOrigin="0.167,0.55" Grid.Column="5">
+                    <Button x:Name="btnBaklavaBites" Content="Baklava Bites" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" VerticalAlignment="Center" Click="btnBaklavaBites_Click" HorizontalAlignment="Center" Width="194" RenderTransformOrigin="0.167,0.55" Grid.Column="5">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Baklava Bites.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMatchaGreenTeaShake" Content="Matcha Green Tea Shake" Width="194" Height="325" FontSize="16" Margin="0,6,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMatchaGreenTeaShake_Click" Grid.Column="6">
+                    <Button x:Name="btnMatchaGreenTeaShake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,6,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMatchaGreenTeaShake_Click" Grid.Column="6">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Matcha Shake.png"/>
                         </Button.Background>
+                        <Viewbox Stretch="Uniform">
+                            <TextBlock Text="Matcha Green Tea Shake" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Bahnschrift" FontWeight="Bold" />
+                        </Viewbox>
                     </Button>
-                    <Button x:Name="btnChurroCinnamonShake" Content="Churro Cinnamon Shake" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnChurroCinnamonShake_Click" Grid.Row="1">
+                    <Button x:Name="btnChurroCinnamonShake" Content="Churro Cinnamon Shake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnChurroCinnamonShake_Click" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Churro Cinnamon Shake.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMangoLassiShake_Click" RenderTransformOrigin="0.567,0.123" Grid.Row="1" Grid.Column="1">
+                    <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMangoLassiShake_Click" RenderTransformOrigin="0.567,0.123" Grid.Row="1" Grid.Column="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Mango Lassi Shake.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDulceDeLecheShake_Click" Grid.Column="4" Grid.Row="1">
+                    <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDulceDeLecheShake_Click" Grid.Column="4" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Dulce De Leche Shake.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Width="204" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnTiramisuShake_Click" Grid.Column="3" Grid.Row="1">
+                    <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Width="204" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnTiramisuShake_Click" Grid.Column="3" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Tiramisu Shake.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Width="194" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnPandanCoconutShake_Click" Grid.Column="2" Grid.Row="1">
+                    <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnPandanCoconutShake_Click" Grid.Column="2" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Pandan Coconut Shake.png"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Width="204" Height="325" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDubaiChocolateShake_Click" Grid.Column="5" Grid.Row="1">
+                    <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Width="204" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnDubaiChocolateShake_Click" Grid.Column="5" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Dubai Chocolate Shake.png"/>
                         </Button.Background>
