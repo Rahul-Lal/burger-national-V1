@@ -416,12 +416,41 @@ namespace burger_national_V1
 
         private void btnCoke_Click(object sender, RoutedEventArgs e)
         {
-
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Coke\n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnCokeNS_Click(object sender, RoutedEventArgs e)
         {
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Coke No Sugar \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
+        }
 
+        private void btnJarritos_Click(object sender, RoutedEventArgs e)
+        {
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Jarritos Grapefruit\n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnIrnBru_Click(object sender, RoutedEventArgs e)
