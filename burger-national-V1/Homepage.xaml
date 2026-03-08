@@ -268,10 +268,13 @@
                             <TextBlock Text="Matcha Green Tea Shake" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Bahnschrift" FontWeight="Bold" />
                         </Viewbox>
                     </Button>
-                    <Button x:Name="btnChurroCinnamonShake" Content="Churro Cinnamon Shake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnChurroCinnamonShake_Click" Grid.Row="1">
+                    <Button x:Name="btnChurroCinnamonShake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnChurroCinnamonShake_Click" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush Opacity="0.75" ImageSource="/Assets/Images/Desserts/Churro Cinnamon Shake.png"/>
                         </Button.Background>
+                        <Viewbox Stretch="Uniform">
+                            <TextBlock Text="Churro Cinnamon Shake" TextWrapping="Wrap" TextAlignment="Center" FontFamily="Bahnschrift" FontWeight="Bold" />
+                        </Viewbox>
                     </Button>
                     <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Width="194" Height="325" FontSize="30"  FontFamily="Bahnschrift" Foreground="FloralWhite" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnMangoLassiShake_Click" RenderTransformOrigin="0.567,0.123" Grid.Row="1" Grid.Column="1">
                         <Button.Background>
