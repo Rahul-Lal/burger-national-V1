@@ -494,17 +494,17 @@ namespace burger_national_V1
 
         private void btnSmallDrink_Click(object sender, RoutedEventArgs e)
         {
-
+            isDrinkSmall = true;
         }
 
         private void btnMediumDrink_Click(object sender, RoutedEventArgs e)
         {
-
+            isDrinkMedium = true;
         }
 
         private void btnLargeDrink_Click(object sender, RoutedEventArgs e)
         {
-
+            isDrinkLarge = true;
         }
     }
 }
