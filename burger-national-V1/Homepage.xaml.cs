@@ -481,7 +481,15 @@ namespace burger_national_V1
 
         private void btnTing_Click(object sender, RoutedEventArgs e)
         {
-
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Ting \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnSmallDrink_Click(object sender, RoutedEventArgs e)
