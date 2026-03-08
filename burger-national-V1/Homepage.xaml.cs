@@ -351,67 +351,67 @@ namespace burger_national_V1
 
         private void btnApplePie_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Apple Pie", 4.5);
         }
 
         private void btnChurros_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Churros", 4.5);
         }
 
         private void btnTiramisuCup_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Tiramisu Cup", 5.0);
         }
 
         private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Mochi Ice Cream", 5.0);
         }
 
         private void btnCremeBrulee_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Creme Brulee", 6.5);
         }
 
         private void btnBaklavaBites_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Baklava Bites", 6.5);
         }
 
         private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Matcha Green Tea Shake", 6.0);
         }
 
         private void btnChurroCinnamonShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Churro Cinnamon Shake", 6.0);
         }
 
         private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Mango Lassi Shake", 6.0);
         }
 
         private void btnPandanCoconutShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Pandan Coconut Shake", 6.0);
         }
 
         private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Tiramisu Shake", 6.0);
         }
 
         private void btnDulceDeLecheShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Dulce De Leche Shake", 6.0);
         }
 
         private void btnDubaiChocolateShake_Click(object sender, RoutedEventArgs e)
         {
-
+            printMenuItem("Dubai Chocolate Shake", 6.0);
         }
     }
 }

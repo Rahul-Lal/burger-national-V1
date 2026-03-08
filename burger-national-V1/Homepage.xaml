@@ -318,7 +318,64 @@
                     </Button>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="btnDrinks" Header="Drinks" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFD47500"/>
+            <TabItem x:Name="btnDrnks" Header="Drinks" Width="250" Height="100" FontSize="28" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FFD47500">
+                <Grid HorizontalAlignment="Left" Width="1498" Height="805" VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnCoke" Width="200" Height="257" FontSize="30" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Click="btnCoke_Click" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Agency FB" VerticalContentAlignment="Center" Margin="10,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/Coca-Cola.jpg" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnCokeNS"  Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnCokeNS_Click" RenderTransformOrigin="0.5,0.5" Grid.Column="1" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" HorizontalContentAlignment="Center" Margin="4,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/CokeNS.jpg" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnJarritos" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnJarritos_Click" Grid.Column="2" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/Jarritos.jpg" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnIrnBru" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnIrnBru_Click" Grid.Column="3" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/IrnBru.jpg" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnLnP" Width="200" Height="259" FontSize="30" HorizontalAlignment="Center" Click="btnLnP_Click" RenderTransformOrigin="0.567,0.123" Grid.Column="4" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="0,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/LnP.jpg" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnSparletta" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnSparletta_Click" Grid.Column="5" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/Sparletta.png" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnSmallTing" Width="200" Height="257" FontSize="30" HorizontalAlignment="Left" Click="btnTing_Click" Grid.Column="6" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="4,2,0,0" Grid.Row="1">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Images/Drinks/ting.jpg" Opacity="0.75"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnMediumDrink" Click="btnMediumDrink_Click" Grid.Column="3" Content="Medium" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
+                    <Button x:Name="btnSmallDrink" Click="btnSmallDrink_Click" Grid.Column="1" Content="Small" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
+                    <Button x:Name="btnLargeDrink" Click="btnLargeDrink_Click" Grid.Column="5" Content="Large" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
+                    <Label x:Name="lblInstruction" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="Black" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                </Grid>
+            </TabItem>
             <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="27" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
         </TabControl>
 
