@@ -468,7 +468,15 @@ namespace burger_national_V1
 
         private void btnSparletta_Click(object sender, RoutedEventArgs e)
         {
-
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "Sparletta Cream Soda \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
         }
 
         private void btnTing_Click(object sender, RoutedEventArgs e)
