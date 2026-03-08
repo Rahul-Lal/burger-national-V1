@@ -413,5 +413,45 @@ namespace burger_national_V1
         {
             printMenuItem("Dubai Chocolate Shake", 6.0);
         }
+
+        private void btnCoke_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCokeNS_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnIrnBru_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSparletta_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTing_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSmallDrink_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMediumDrink_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLargeDrink_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
