@@ -373,7 +373,7 @@
                     <Button x:Name="btnMediumDrink" Click="btnMediumDrink_Click" Grid.Column="3" Content="Medium" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
                     <Button x:Name="btnSmallDrink" Click="btnSmallDrink_Click" Grid.Column="1" Content="Small" HorizontalAlignment="Left" Margin="4,0,0,0" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
                     <Button x:Name="btnLargeDrink" Click="btnLargeDrink_Click" Grid.Column="5" Content="Large" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="200" Height="130"/>
-                    <Label x:Name="lblInstruction" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="Black" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label x:Name="lblInstruction" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="FloralWhite" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 </Grid>
             </TabItem>
             <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="27" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
