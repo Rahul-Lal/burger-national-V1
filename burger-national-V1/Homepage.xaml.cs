@@ -348,5 +348,70 @@ namespace burger_national_V1
         {
             printMenuItem("Poutine", 6.5);
         }
+
+        private void btnApplePie_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChurros_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTiramisuCup_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMochiIceCream_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCremeBrulee_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBaklavaBites_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMatchaGreenTeaShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChurroCinnamonShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnPandanCoconutShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDulceDeLecheShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnDubaiChocolateShake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
