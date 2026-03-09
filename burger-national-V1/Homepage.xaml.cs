@@ -519,5 +519,49 @@ namespace burger_national_V1
             isDrinkLarge = true;
         }
 
+        private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnKyotoNights_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnLibertyNights_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnGroupTour_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnMozzarellaSticksAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSpringRollsAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnApplePieAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
