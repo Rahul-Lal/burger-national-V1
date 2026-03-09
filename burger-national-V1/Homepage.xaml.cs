@@ -465,6 +465,18 @@ namespace burger_national_V1
                 MessageBox.Show("Please Select a size first.");
             }
         }
+        private void btnLnP_Click(object sender, RoutedEventArgs e)
+        {
+            if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
+            {
+                setDrinkSize();
+                txtOutput.Text += "LnP \n";
+            }
+            else
+            {
+                MessageBox.Show("Please Select a size first.");
+            }
+        }
 
         private void btnSparletta_Click(object sender, RoutedEventArgs e)
         {
@@ -506,5 +518,6 @@ namespace burger_national_V1
         {
             isDrinkLarge = true;
         }
+
     }
 }

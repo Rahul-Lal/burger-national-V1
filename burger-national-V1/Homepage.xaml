@@ -355,7 +355,7 @@
                             <ImageBrush ImageSource="/Assets/Images/Drinks/IrnBru.jpg" Opacity="0.75"/>
                         </Button.Background>
                     </Button>
-                    <Button x:Name="btnLnP" Width="200" Height="259" FontSize="30" HorizontalAlignment="Center" Click="btnLnP_Click" RenderTransformOrigin="0.567,0.123" Grid.Column="4" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="0,2,0,0" Grid.Row="1">
+                    <Button x:Name="btnLnP" Width="200" Height="259" FontSize="30" HorizontalAlignment="Right" Click="btnLnP_Click" RenderTransformOrigin="0.567,0.123" Grid.Column="4" VerticalAlignment="Top" FontFamily="Agency FB" FontWeight="Bold" Margin="0,2,7,0" Grid.Row="1">
                         <Button.Background>
                             <ImageBrush ImageSource="/Assets/Images/Drinks/LnP.jpg" Opacity="0.75"/>
                         </Button.Background>
@@ -376,24 +376,49 @@
                     <Label x:Name="lblInstruction" Content="Press Drink Size Before Drink Choice" HorizontalAlignment="Left" VerticalAlignment="Center" Height="99" Width="1067" FontSize="48" Background="Transparent" Foreground="FloralWhite" Grid.ColumnSpan="5" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
                 </Grid>
             </TabItem>
-            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="27" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F"/>
+            <TabItem x:Name="btnCombo" Header="Combos + Add-Ons" Width="250" Height="100" FontSize="27" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF007C7F">
+                <Grid Height="806" Margin="10,0,429,0" VerticalAlignment="Top">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="355*"/>
+                        <RowDefinition Height="451*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                        <ColumnDefinition Width="300*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="btnVenetianBite" Content="Venetian Bite" Width="285" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnVenetianBite_Click"/>
+                    <Button x:Name="btnFiestaBox" Content="Fiesta Box" Width="288" Height="323" FontSize="16" Margin="292,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnFiestaBox_Click" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnKyotoNights" Content="Kyoto Nights" Height="323" FontSize="16" Margin="0,10,10,0" VerticalAlignment="Top" Click="btnKyotoNights_Click" Grid.Column="2"/>
+                    <Button x:Name="btnLibertyNights" Content="Liberty Nights" Width="285" Height="323" FontSize="16" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnLibertyNights_Click" Grid.Column="3"/>
+                    <Button x:Name="btnGroupTour" Content="The Group Tour" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnGroupTour_Click" Grid.Column="4"/>
+
+                    <Button x:Name="btnMozzarellaSticksAddOn" Content="$3.00 Mozzarella Sticks Add On" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnMozzarellaSticksAddOn_Click" Grid.Row="1"/>
+                    <Button x:Name="btnSpringRollsAddOn" Content="$3.00 Spring Rolls Add On" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnSpringRollsAddOn_Click" Grid.Column="1" Grid.Row="1"/>
+                    <Button x:Name="btnApplePieAddOn" Content="$3.00 Apple Pie Add On" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnApplePieAddOn_Click" Grid.Column="2" Grid.Row="1"/>
+                    <Button x:Name="btnChurrosAddOn" Content="$3.00 Churros Add On" Width="275" Height="323" FontSize="16" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnChurrosAddOn_Click" Grid.Column="3" Grid.Row="1"/>
+                </Grid>
+            </TabItem>
         </TabControl>
 
 
-        <Label Content="Sub Total: " HorizontalAlignment="Left" Margin="0,802,0,0" VerticalAlignment="Top" Height="39" Width="227" FontSize="22" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift"/>
-        <TextBox x:Name="txtSubTotal" IsReadOnly="True" HorizontalAlignment="Left" Margin="227,805,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="196" Height="39" FontSize="22" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift">
+        <Label Content="Sub Total: " HorizontalAlignment="Left" Margin="0,802,0,0" VerticalAlignment="Top" Height="39" Width="345" FontSize="22" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="txtSubTotal" IsReadOnly="True" HorizontalAlignment="Left" Margin="350,805,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="73" Height="39" FontSize="22" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
         </TextBox>
-        <Label Content="GST: " HorizontalAlignment="Left" Margin="0,842,0,0" VerticalAlignment="Top" Height="39" Width="227" FontSize="22" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift"/>
-        <TextBox x:Name="txtGST" IsReadOnly="True" HorizontalAlignment="Left" Margin="227,843,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="196" Height="39" FontSize="22" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift">
+        <Label Content="GST: " HorizontalAlignment="Left" Margin="0,842,0,0" VerticalAlignment="Top" Height="39" Width="345" FontSize="22" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="txtGST" IsReadOnly="True" HorizontalAlignment="Left" Margin="350,843,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="73" Height="39" FontSize="22" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
         </TextBox>
-        <Label Content="Total: " HorizontalAlignment="Left" Margin="0,880,0,0" VerticalAlignment="Top" Height="39" Width="227" FontSize="22" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift"/>
-        <TextBox x:Name="txtTotal" IsReadOnly="True" HorizontalAlignment="Left" Margin="227,881,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="196" Height="39" FontSize="22" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift">
+        <Label Content="Total: " HorizontalAlignment="Left" Margin="0,880,0,0" VerticalAlignment="Top" Height="39" Width="345" FontSize="22" FontWeight="Bold" Background="FloralWhite" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift"/>
+        <TextBox x:Name="txtTotal" IsReadOnly="True" HorizontalAlignment="Left" Margin="350,881,0,0" TextWrapping="Wrap" Text="$0.00" VerticalAlignment="Top" Width="73" Height="39" FontSize="22" TextAlignment="Center" Background="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="DarkRed" FontFamily="Bahnschrift">
             <TextBox.BorderBrush>
                 <SolidColorBrush Color="#FFABADB3" Opacity="0"/>
             </TextBox.BorderBrush>
