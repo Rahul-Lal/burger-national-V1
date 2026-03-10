@@ -534,22 +534,22 @@ namespace burger_national_V1
 
         private void btnVenetianBite_Click(object sender, RoutedEventArgs e)
         {
-
+            comboDeal("VENETIAN BITE", "Single Roma Burger", "Mozzarella Sticks", "Tiramisu Cup", 15.50);
         }
 
         private void btnFiestaBox_Click(object sender, RoutedEventArgs e)
         {
-
+            multiChoiceComboDeal("FIESTA BOX", "Baja Chicken", "Oaxaca Veggie", "Loaded Nachos", "Churros", 17.50);
         }
 
         private void btnKyotoNights_Click(object sender, RoutedEventArgs e)
         {
-
+            comboDeal("KYOTO NIGHTS", "Kyoto Katsu Burger", "Spring Rolls", "Mochi Ice Cream", 15.50);
         }
 
         private void btnLibertyNights_Click(object sender, RoutedEventArgs e)
         {
-
+            comboDeal("LIBERTY NIGHTS", "Nashville Hot", "Large Fries", "Apple Pie", 15.50);
         }
 
         private void btnGroupTour_Click(object sender, RoutedEventArgs e)
