@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:burger_national_V1"
       mc:Ignorable="d"
-        Title="Which Burger Do You Want?" Height="450" Width="800" Background="#FF212121">
+        Title="Which Burger Do You Want?" Height="500" Width="800" Background="#FF212121">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Images/burger-national-logo.png" Stretch="UniformToFill"/>

@@ -105,26 +105,38 @@ namespace burger_national_V1
             {
                 finalBurgerChoice = burger1;
                 burgerChoice.isOptionOne = false;
+
+                txtOutput.Text += title + "\n";
+                txtOutput.Text += finalBurgerChoice + "\n";
+                txtOutput.Text += side + "\n";
+                txtOutput.Text += dessert + "\n";
+                txtOutput.Text += "Small Drink\n";
+                total += price;
+
+                txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
+                totalAmount(total);
             }
             else if (burgerChoice.isOptionTwo == true)
             {
                 finalBurgerChoice = burger2;
                 burgerChoice.isOptionTwo = false;
+
+                txtOutput.Text += title + "\n";
+                txtOutput.Text += finalBurgerChoice + "\n";
+                txtOutput.Text += side + "\n";
+                txtOutput.Text += dessert + "\n";
+                txtOutput.Text += "Small Drink\n";
+                total += price;
+
+                txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
+                totalAmount(total);
             }
             else
             {
-                finalBurgerChoice = burger1;
+                finalBurgerChoice = "";
+                burgerChoice.isOptionOne = false;
+                burgerChoice.isOptionTwo = false;
             }
-
-            txtOutput.Text += title + "\n";
-            txtOutput.Text += finalBurgerChoice + "\n";
-            txtOutput.Text += side + "\n";
-            txtOutput.Text += dessert + "\n";
-            txtOutput.Text += "Small Drink\n";
-            total += price;
-
-            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
-            totalAmount(total);
         }
 
         private void comboOption(string burger, double price)
