@@ -79,6 +79,19 @@ namespace burger_national_V1
             }
         }
 
+        private void comboDeal(string title, string burger, string side, string dessert, double price)
+        {
+            txtOutput.Text += title + "\n";
+            txtOutput.Text += burger + "\n";
+            txtOutput.Text += side + "\n";
+            txtOutput.Text += dessert + "\n";
+            txtOutput.Text += "Small Drink\n";
+            total += price;
+
+            txtPrices.Text += "$" + price.ToString() + "0\n\n\n\n\n";
+            totalAmount(total);
+        }
+
         private void multiChoiceComboDeal(string title, string burger1, string burger2, string side, string dessert, double price)
         {
             //string finalBurgerChoice = "";
