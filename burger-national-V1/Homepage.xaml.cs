@@ -566,7 +566,14 @@ namespace burger_national_V1
 
         private void btnGroupTour_Click(object sender, RoutedEventArgs e)
         {
+            var groupTourWindow = new GroupTourWindow(this);
+            groupTourWindow.ShowDialog();
 
+
+            total += 40.00;
+
+            txtPrices.Text += "$" + total.ToString() + ".00\n\n\n\n\n\n";
+            totalAmount(total);
         }
 
         private void btnMozzarellaSticksAddOn_Click(object sender, RoutedEventArgs e)
