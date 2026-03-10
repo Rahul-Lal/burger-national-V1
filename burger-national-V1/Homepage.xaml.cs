@@ -204,11 +204,6 @@ namespace burger_national_V1
             totalAmount(total);
         }
 
-        private void btnPayment_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
         {
             clearOutput();
@@ -594,6 +589,11 @@ namespace burger_national_V1
         private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
         {
             printMenuItem("Churros (Add On)", 3.0);
+        }
+
+        private void btnPayment_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
