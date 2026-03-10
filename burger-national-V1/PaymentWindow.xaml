@@ -13,27 +13,27 @@
         <Button x:Name="btnEftpos" Click="btnEftpos_Click" Content="EFTPOS" HorizontalAlignment="Left" Margin="58,106,0,0" VerticalAlignment="Top" Height="88" Width="169" FontSize="24" Foreground="White" Background="#FF3406B9"/>
         <Button x:Name="btnExactAmount" Click="btnExactAmount_Click" Content="Exact" HorizontalAlignment="Left" Margin="58,202,0,0" VerticalAlignment="Top" Height="88" Width="169" FontSize="24" Background="#FF585858" Foreground="White"/>
         <Button x:Name="btnCash" Click="btnCash_Click" Content="Cash" HorizontalAlignment="Left" Margin="515,322,0,0" VerticalAlignment="Top" Height="88" Width="170" FontSize="24" Background="#FF0ACA39" Foreground="White"/>
-        <Button x:Name="btnHundredDollars" Click="btnHundredDollars_Click" HorizontalAlignment="Left" Margin="406,109,0,0" VerticalAlignment="Top" Height="88" Width="169">
+        <Button x:Name="btnHundredDollars" Click="btnHundredDollars_Click" HorizontalAlignment="Left" Margin="406,202,0,0" VerticalAlignment="Top" Height="88" Width="169">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Images/Money/One Hundred.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnFiftyDollars" Click="btnFiftyDollars_Click" HorizontalAlignment="Left" Margin="232,109,0,0" VerticalAlignment="Top" Height="88" Width="169">
+        <Button x:Name="btnFiftyDollars" Click="btnFiftyDollars_Click" HorizontalAlignment="Left" Margin="232,202,0,0" VerticalAlignment="Top" Height="88" Width="169">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Images/Money/Fifty.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnTwentyDollars" Click="btnTwentyDollars_Click" HorizontalAlignment="Left" Margin="406,202,0,0" VerticalAlignment="Top" Height="88" Width="169">
+        <Button x:Name="btnTwentyDollars" Click="btnTwentyDollars_Click" HorizontalAlignment="Left" Margin="580,109,0,0" VerticalAlignment="Top" Height="88" Width="169">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Images/Money/Twenty.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnTenDollars" Click="btnTenDollars_Click" HorizontalAlignment="Left" Margin="232,202,0,0" VerticalAlignment="Top" Height="88" Width="169">
+        <Button x:Name="btnTenDollars" Click="btnTenDollars_Click" HorizontalAlignment="Left" Margin="406,109,0,0" VerticalAlignment="Top" Height="88" Width="169">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Images/Money/Ten.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnFiveDollars" Click="btnFiveDollars_Click" HorizontalAlignment="Left" Margin="580,109,0,0" VerticalAlignment="Top" Height="88" Width="169">
+        <Button x:Name="btnFiveDollars" Click="btnFiveDollars_Click" HorizontalAlignment="Left" Margin="232,109,0,0" VerticalAlignment="Top" Height="88" Width="169">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/Images/Money/Five.jpg"/>
             </Button.Background>
