@@ -593,7 +593,8 @@ namespace burger_national_V1
 
         private void btnPayment_Click(object sender, RoutedEventArgs e)
         {
-
+            var paymentWindow = new PaymentWindow(this, total);
+            paymentWindow.ShowDialog();
         }
     }
 }
