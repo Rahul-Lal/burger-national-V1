@@ -16,11 +16,26 @@ namespace burger_national_V1
     /// <summary>
     /// Interaction logic for BurgerChoiceWindow.xaml
     /// </summary>
-    public partial class BurgerChoiceWindow : Page
+    public partial class BurgerChoiceWindow : Window
     {
         public BurgerChoiceWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnOptionOne_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnOptionTwo_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCancel_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
