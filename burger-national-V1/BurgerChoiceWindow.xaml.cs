@@ -23,19 +23,24 @@ namespace burger_national_V1
             InitializeComponent();
         }
 
+        public bool isOptionOne = false;
+        public bool isOptionTwo = false;
+
         private void btnOptionOne_Click(object sender, RoutedEventArgs e)
         {
-
+            isOptionOne = true;
+            this.Close();
         }
 
         private void btnOptionTwo_Click(object sender, RoutedEventArgs e)
         {
-
+            isOptionTwo = true;
+            this.Close();
         }
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
