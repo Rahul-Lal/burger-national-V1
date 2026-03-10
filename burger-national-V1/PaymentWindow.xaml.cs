@@ -33,6 +33,10 @@ namespace burger_national_V1
             _home.txtOutput.Text = "";
             _home.txtPrices.Text = "";
             _home.total = 0.0;
+            _home.subTotal = 0.0;
+            _home.GST = 0.0;
+            _home.txtSubTotal.Text = _home.subTotal.ToString("C");
+            _home.txtGST.Text = _home.GST.ToString("C");
             _home.txtTotal.Text = _home.total.ToString("C");
         }
 
@@ -52,6 +56,7 @@ namespace burger_national_V1
             {
                 // Still money left to pay
                 txtTotalPrice.Text = amountOwed.ToString("0.00");
+                
             }
             else
             {
