@@ -1,0 +1,15 @@
+﻿<Window x:Class="burger_national_V1.BurgerChoiceWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:burger_national_V1"
+      mc:Ignorable="d"
+        Title="Which Burger Do You Want?" Height="450" Width="800">
+    <Grid>
+        <Label Content="Which burger would you like?" HorizontalAlignment="Center" Margin="0,118,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Agency FB" Width="541" HorizontalContentAlignment="Center"/>
+        <Button x:Name="btnOptionOne"  Content="Option 1" Click="btnOptionOne_Click" Margin="130,217,474,134"/>
+        <Button x:Name="btnOptionTwo"  Content="Option 2" Click="btnOptionTwo_Click" Margin="476,217,130,134"/>
+        <Button x:Name="btnCancel" Content="Cancel" Click="btnCancel_Click" Margin="302,375,302,10"/>
+    </Grid>
+</Window>
