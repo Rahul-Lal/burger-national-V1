@@ -27,6 +27,8 @@ namespace burger_national_V1
         bool isDrinkMedium = false;
         bool isDrinkLarge = false;
 
+        int AddOnCount = 0;
+
         public double total = 0.00;
         public double subTotal = 0.00;
         public double GST = 0.00;
@@ -202,6 +204,24 @@ namespace burger_national_V1
             }
             total += price;
             totalAmount(total);
+        }
+
+        private void comboCounter(string menuItem)
+        {
+            string sourceText = txtOutput.Text;
+            string wordToCount = "COMBO";
+
+            int comboCount = sourceText.Split(new string[] { wordToCount }, StringSplitOptions.None).Length - 1;
+
+            if (AddOnCount == comboCount || comboCount == 0)
+            {
+                MessageBox.Show("You have added the maximum amount of add-ons for your combos.");
+            }
+            else
+            {
+                printMenuItem(menuItem, 3.00);
+                AddOnCount++;
+            }
         }
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
