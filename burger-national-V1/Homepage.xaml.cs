@@ -38,6 +38,7 @@ namespace burger_national_V1
             txtOutput.Text = "";
             txtPrices.Text = "";
             total = 0.0;
+            AddOnCount = 0;
             totalAmount(total);
         }
 
