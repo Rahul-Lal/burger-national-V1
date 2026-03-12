@@ -23,7 +23,7 @@
                 <SolidColorBrush Color="#FF585858" Opacity="0.75"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnCash" Click="btnCash_Click" Content="Cash" HorizontalAlignment="Left" Margin="504,355,0,0" VerticalAlignment="Top" Height="88" Width="170" FontSize="24" Foreground="White">
+        <Button x:Name="btnCash" Click="btnCash_Click" Content="Cash" HorizontalAlignment="Left" Margin="504,355,0,0" VerticalAlignment="Top" Height="88" Width="170" FontSize="24" Foreground="White" FontFamily="Bahnschrift">
             <Button.Background>
                 <SolidColorBrush Color="#FF0ACA39" Opacity="0.75"/>
             </Button.Background>
