@@ -593,22 +593,22 @@ namespace burger_national_V1
 
         private void btnMozzarellaSticksAddOn_Click(object sender, RoutedEventArgs e)
         {
-            printMenuItem("Mozzarella Sticks (Add On)", 3.0);
+            comboCounter("Mozzarella Sticks (Add On)");
         }
 
         private void btnSpringRollsAddOn_Click(object sender, RoutedEventArgs e)
         {
-            printMenuItem("Spring Rolls (Add On)", 3.0);
+            comboCounter("Spring Rolls (Add On)");
         }
 
         private void btnApplePieAddOn_Click(object sender, RoutedEventArgs e)
         {
-            printMenuItem("Apple Pie (Add On)", 3.0);
+            comboCounter("Apple Pie (Add On)");
         }
 
         private void btnChurrosAddOn_Click(object sender, RoutedEventArgs e)
         {
-            printMenuItem("Churros (Add On)", 3.0);
+            comboCounter("Churros (Add On)");
         }
 
         private void btnPayment_Click(object sender, RoutedEventArgs e)
