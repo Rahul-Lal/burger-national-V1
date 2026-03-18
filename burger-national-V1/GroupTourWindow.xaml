@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Images/burger-national-logo.png" Stretch="UniformToFill" Opacity="0.505"/>
         </Grid.Background>
-        <Label Content="Select your burger options:" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Bahnschrift" Width="541" HorizontalContentAlignment="Center" Foreground="FloralWhite"/>
+        <Label Content="Select your burger options:" HorizontalAlignment="Center" Margin="0,62,0,0" VerticalAlignment="Top" FontSize="30" FontFamily="Bahnschrift" Width="541" HorizontalContentAlignment="Center" Foreground="FloralWhite"/>
 
         <Label Content="European Burgers:" HorizontalAlignment="Center" Margin="0,122,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Bahnschrift" Foreground="FloralWhite"/>
         <ComboBox Text="Select A European Burger" x:Name="cbxEuropeanOne"  HorizontalAlignment="Left" Margin="130,156,0,0" VerticalAlignment="Top" Width="224"/>
