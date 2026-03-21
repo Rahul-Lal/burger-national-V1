@@ -519,6 +519,7 @@ namespace burger_national_V1
                 MessageBox.Show("Please Select a size first.");
             }
         }
+        
         private void btnLnP_Click(object sender, RoutedEventArgs e)
         {
             if (isDrinkLarge == true || isDrinkMedium == true || isDrinkSmall == true)
@@ -629,6 +630,11 @@ namespace burger_national_V1
         {
             var paymentWindow = new PaymentWindow(this, total);
             paymentWindow.ShowDialog();
+        }
+
+        private void btnSuperGold_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
