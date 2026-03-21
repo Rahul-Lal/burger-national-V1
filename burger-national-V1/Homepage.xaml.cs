@@ -225,6 +225,19 @@ namespace burger_national_V1
             }
         }
 
+        private void discount(double percentage)
+        {
+            double percent = percentage / 100;
+            double discountedAmount = total * percent;
+            double discountedTotal = total - discountedAmount;
+
+            txtOutput.Text = $"{percentage}% discount Applied.\n\n" + txtOutput.Text;
+            txtPrices.Text = "\n\n" + txtPrices.Text;
+
+            total = discountedTotal;
+            txtTotal.Text = discountedTotal.ToString("C");
+        }
+
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
         {
             clearOutput();
