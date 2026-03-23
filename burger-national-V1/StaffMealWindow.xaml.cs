@@ -45,5 +45,10 @@ namespace burger_national_V1
         {
             printStaffMeal("Single Olympian");
         }
+
+        private void btnSingleParisan_Click(object sender, RoutedEventArgs e)
+        {
+            printStaffMeal("Single Parisian");
+        }
     }
 }
