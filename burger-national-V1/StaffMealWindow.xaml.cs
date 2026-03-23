@@ -40,5 +40,10 @@ namespace burger_national_V1
             _home.isStaffMealSelected = true;
             this.Close();
         }
+
+        private void btnSingleOlympian_Click(object sender, RoutedEventArgs e)
+        {
+            printStaffMeal("Single Olympian");
+        }
     }
 }
