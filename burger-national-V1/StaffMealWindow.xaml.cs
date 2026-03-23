@@ -55,5 +55,10 @@ namespace burger_national_V1
         {
             printStaffMeal("Single Roma");
         }
+
+        private void btnNashvilleHot_Click(object sender, RoutedEventArgs e)
+        {
+            printStaffMeal("Nashville Hot");
+        }
     }
 }
