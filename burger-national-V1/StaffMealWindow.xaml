@@ -70,7 +70,7 @@
         <ImageBrush ImageSource="/Assets/Images/Chicken+Others/Havana.png" Opacity="0.75" Stretch="Fill"/>
     </Button.Background>
 </Button>
-<Label x:Name="lblInstruction" Content="Select a burger for your staff meal" HorizontalAlignment="Left" VerticalAlignment="Center" Height="77" Width="880" FontSize="48" Background="Transparent" Foreground="Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="5" Margin="20,0,0,0"/>
+<Label x:Name="lblInstruction" Content="Select a burger for your staff meal" HorizontalAlignment="Left" VerticalAlignment="Center" Height="77" Width="880" FontSize="48" Background="Transparent" Foreground="FloralWhite" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.ColumnSpan="5" Margin="20,0,0,0"/>
 
     </Grid>
 </Window>
