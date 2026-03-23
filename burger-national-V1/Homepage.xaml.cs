@@ -42,6 +42,7 @@ namespace burger_national_V1
             txtPrices.Text = "";
             total = 0.0;
             AddOnCount = 0;
+            isStaffMealSelected=false;
             totalAmount(total);
         }
 
