@@ -80,5 +80,10 @@ namespace burger_national_V1
         {
             printStaffMeal("Bombay Veggie");
         }
+
+        private void btnNordic_Click(object sender, RoutedEventArgs e)
+        {
+            printStaffMeal("Nordic Fish");
+        }
     }
 }
