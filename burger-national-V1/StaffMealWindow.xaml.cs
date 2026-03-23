@@ -70,5 +70,10 @@ namespace burger_national_V1
         {
             printStaffMeal("Marrakesh Chicken");
         }
+
+        private void btnOaxaca_Click(object sender, RoutedEventArgs e)
+        {
+            printStaffMeal("Oaxaca Veggie");
+        }
     }
 }
