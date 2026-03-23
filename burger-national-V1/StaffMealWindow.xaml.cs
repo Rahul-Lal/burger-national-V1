@@ -60,5 +60,10 @@ namespace burger_national_V1
         {
             printStaffMeal("Nashville Hot");
         }
+
+        private void btnKyotoKatsu_Click(object sender, RoutedEventArgs e)
+        {
+            printStaffMeal("Kyoto Katsu");
+        }
     }
 }
