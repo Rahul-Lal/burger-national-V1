@@ -235,7 +235,12 @@ namespace burger_national_V1
             txtPrices.Text = "\n\n" + txtPrices.Text;
 
             total = discountedTotal;
-            txtTotal.Text = discountedTotal.ToString("C");
+            subTotal = total / 1.15;
+            GST = total - subTotal;
+
+            txtTotal.Text = total.ToString("C");
+            txtSubTotal.Text = subTotal.ToString("C");
+            txtGST.Text = GST.ToString("C");
         }
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
@@ -634,7 +639,16 @@ namespace burger_national_V1
 
         private void btnSuperGold_Click(object sender, RoutedEventArgs e)
         {
+            MessageBoxResult result = MessageBox.Show($"Is this order completed?", "Discount", MessageBoxButton.YesNo, MessageBoxImage.Question);
 
+            if (result == MessageBoxResult.Yes)
+            {
+                discount(10.00);
+            }
+            else
+            {
+                MessageBox.Show("Discount not applied, please finish the order before applying the discount");
+            }
         }
     }
 }
