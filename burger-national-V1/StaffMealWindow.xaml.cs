@@ -17,9 +17,12 @@ namespace burger_national_V1
     /// </summary>
     public partial class StaffMealWindow : Window
     {
-        public StaffMealWindow()
+        private readonly Homepage _home;
+
+        public StaffMealWindow(Homepage home)
         {
             InitializeComponent();
+            _home = home;
         }
     }
 }
