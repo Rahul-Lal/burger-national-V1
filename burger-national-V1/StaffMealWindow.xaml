@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:burger_national_V1"
         mc:Ignorable="d"
-        Title="Staff Meal" Height="660" Width="900">
+        Title="Staff Meal" Height="660" Width="900" Background="#FF171717">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Images/burger-national-logo.png" Stretch="UniformToFill"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="100*"/>
             <RowDefinition Height="250*"/>
