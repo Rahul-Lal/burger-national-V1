@@ -27,6 +27,9 @@ namespace burger_national_V1
         bool isDrinkMedium = false;
         bool isDrinkLarge = false;
 
+        public bool isStaffMealSelected = false;
+        bool isDiscountedTenPercent = false;
+
         int AddOnCount = 0;
 
         public double total = 0.00;
@@ -653,7 +656,15 @@ namespace burger_national_V1
 
         private void btnStaffMeal_Click(object sender, RoutedEventArgs e)
         {
-
+            if (isStaffMealSelected == false)
+            {
+                var staffMealWindow = new StaffMealWindow(this);
+                staffMealWindow.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("You have already selected a staff meal for this order.");
+            }
         }
     }
 }
