@@ -650,5 +650,10 @@ namespace burger_national_V1
                 MessageBox.Show("Discount not applied, please finish the order before applying the discount");
             }
         }
+
+        private void btnStaffMeal_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
