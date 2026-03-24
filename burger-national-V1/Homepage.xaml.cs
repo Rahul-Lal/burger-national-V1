@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -42,7 +43,8 @@ namespace burger_national_V1
             txtPrices.Text = "";
             total = 0.0;
             AddOnCount = 0;
-            isStaffMealSelected=false;
+            isDiscountedTenPercent = false;
+            isStaffMealSelected =false;
             totalAmount(total);
         }
 
@@ -643,15 +645,23 @@ namespace burger_national_V1
 
         private void btnSuperGold_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show($"Is this order completed?", "Discount", MessageBoxButton.YesNo, MessageBoxImage.Question);
-
-            if (result == MessageBoxResult.Yes)
+            if(isDiscountedTenPercent == false)
             {
-                discount(10.00);
+                MessageBoxResult result = MessageBox.Show($"Is this order completed?", "Discount", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (result == MessageBoxResult.Yes)
+                {
+                    discount(10.00);
+                    isDiscountedTenPercent = true;
+                }
+                else
+                {
+                    MessageBox.Show("Discount not applied, please finish the order before applying the discount");
+                }
             }
             else
             {
-                MessageBox.Show("Discount not applied, please finish the order before applying the discount");
+                MessageBox.Show("You have already applied a discount to this order.");
             }
         }
 
