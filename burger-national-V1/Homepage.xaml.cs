@@ -249,6 +249,35 @@ namespace burger_national_V1
             txtGST.Text = GST.ToString("C");
         }
 
+        private void sideOption(string combo, string size)
+        {
+            ComboSideWindow comboSide = new ComboSideWindow(this);
+            comboSide.ShowDialog();
+
+            if ((comboSide.makeGarlicBread == true) || (comboSide.makeMozzarellaStick == true) || (comboSide.makeSpringRoll == true))
+            {
+                combo += comboSide.chosenSide + "\n";
+                txtPrices.Text += "$1.00\n\n";
+                total += 1.00;
+                comboSide.Close();
+            }
+            else if ((comboSide.makeLoadedNachos == true) || (comboSide.makePoutine == true))
+            {
+                combo += comboSide.chosenSide + "\n";
+                txtPrices.Text += "$3.50\n\n";
+                total += 3.50;
+                comboSide.Close();
+            }
+            else
+            {
+                combo += $"{size} " + comboSide.chosenSide + "\n";
+                txtPrices.Text += "\n\n";
+                comboSide.Close();
+            }
+            txtOutput.Text += combo + $"{size} Drink\n";
+
+        }
+
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
         {
             clearOutput();
