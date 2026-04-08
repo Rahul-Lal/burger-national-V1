@@ -1,0 +1,17 @@
+﻿<Window x:Class="burger_national_V1.ComboSideWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:burger_national_V1"
+        mc:Ignorable="d"
+        Title="Combo Side" Height="555" Width="800">
+    <Grid>
+        <Button x:Name="btnFries" Content="Fries" Click="btnFries_Click" Margin="96,21,508,217" Height="200"/>
+        <Button x:Name="btnGarlicBread" Content="Garlic Bread" Click="btnGarlicBread_Click" Margin="297,21,307,217" Height="200"/>
+        <Button x:Name="btnMozzarellaStick" Content="Mozzarella Stick" Click="btnMozzarellaStick_Click" Margin="498,21,106,217" Height="200"/>
+        <Button x:Name="btnSpringRoll" Content="Spring Roll" Click="btnSpringRoll_Click" Margin="96,274,508,56" Height="200"/>
+        <Button x:Name="btnLoadedNachos" Content="Loaded Nachos" Click="btnLoadedNachos_Click" Margin="297,274,307,56" Height="200"/>
+        <Button x:Name="btnPoutine" Content="Poutine" Click="btnPoutine_Click" Margin="498,274,106,56" Height="200"/>
+    </Grid>
+</Window>
