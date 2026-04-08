@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Text;
 using System.Windows;
@@ -150,40 +151,43 @@ namespace burger_national_V1
 
         private void comboOption(string burger, double price)
         {
+            string chosenCombo;
+
             MakeComboWindow makeCombo = new MakeComboWindow();
             makeCombo.ShowDialog();
+            makeCombo.Close();
 
             if (makeCombo.makeLarge == true)
             {
-                txtOutput.Text += burger.ToUpper() + " LARGE COMBO\n" +
-                    burger + " Burger \n" +
-                    "Large Fries \n" +
-                    "Large Drink \n";
-
-                txtPrices.Text += "$" + (price + 7.5).ToString() + ".00\n\n\n\n";
+                chosenCombo = burger.ToUpper() + " LARGE COMBO\n" +
+                    burger + " Burger \n";
+                txtPrices.Text += "$" + (price + 7.5).ToString() + ".00\n\n";
                 total += price + 7.5;
-                totalAmount(total);
+
+                sideOption(chosenCombo, "Large");
 
                 makeCombo.makeLarge = false;
-                makeCombo.Close();
+
+                totalAmount(total);
             }
             else if (makeCombo.makeMedium == true)
             {
-                txtOutput.Text += burger.ToUpper() + " MEDIUM COMBO\n" +
-                    burger + " Burger \n" +
-                    "Medium Fries \n" +
-                    "Medium Drink \n";
-
-                txtPrices.Text += "$" + (price + 5).ToString() + "0\n\n\n\n";
+                chosenCombo = burger.ToUpper() + " MEDIUM COMBO\n" +
+                    burger + " Burger \n";
+                txtPrices.Text += "$" + (price + 5).ToString() + "0\n\n";
                 total += price + 5;
-                totalAmount(total);
+
+                sideOption(chosenCombo, "Medium");
 
                 makeCombo.makeMedium = false;
-                makeCombo.Close();
+
+                totalAmount(total);
             }
             else if (makeCombo.makeJustBurger == true)
             {
-                txtOutput.Text += burger + " Burger \n";
+                chosenCombo = burger + " Burger \n";
+                txtOutput.Text += chosenCombo;
+
                 txtPrices.Text += "$" + price + "0\n";
                 total += price;
                 totalAmount(total);
@@ -195,6 +199,7 @@ namespace burger_national_V1
             {
                 makeCombo.Close();
             }
+            makeCombo.Close();
         }
 
         private void printMenuItem(string menuItem, double price)
