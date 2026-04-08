@@ -17,9 +17,64 @@ namespace burger_national_V1
     /// </summary>
     public partial class ComboSideWindow : Window
     {
-        public ComboSideWindow()
+        private readonly Homepage _home;
+
+        public ComboSideWindow(Homepage home)
         {
             InitializeComponent();
+            _home = home;
+        }
+
+        public bool makeFries = false;
+        public bool makeGarlicBread = false;
+        public bool makeMozzarellaStick = false;
+        public bool makeSpringRoll = false;
+        public bool makeLoadedNachos = false;
+        public bool makePoutine = false;
+
+        public string chosenSide = "";
+
+        private void btnFries_Click(object sender, RoutedEventArgs e)
+        {
+            makeFries = true;
+            chosenSide = "Fries";
+            this.Close();
+        }
+
+        private void btnGarlicBread_Click(object sender, RoutedEventArgs e)
+        {
+            makeGarlicBread = true;
+            chosenSide = "Garlic Bread";
+            this.Close();
+
+        }
+
+        private void btnMozzarellaStick_Click(object sender, RoutedEventArgs e)
+        {
+            makeMozzarellaStick = true;
+            chosenSide = "Mozzarella Sticks";
+            this.Close();
+        }
+
+        private void btnSpringRoll_Click(object sender, RoutedEventArgs e)
+        {
+            makeSpringRoll = true;
+            chosenSide = "Spring Rolls";
+            this.Close();
+        }
+
+        private void btnLoadedNachos_Click(object sender, RoutedEventArgs e)
+        {
+            makeLoadedNachos = true;
+            chosenSide = "Loaded Nachos";
+            this.Close();
+        }
+
+        private void btnPoutine_Click(object sender, RoutedEventArgs e)
+        {
+            makePoutine = true;
+            chosenSide = "Poutine";
+            this.Close();
         }
     }
 }
