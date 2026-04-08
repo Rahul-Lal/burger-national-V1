@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Combo Side" Height="555" Width="800">
     <Grid>
-        <Button x:Name="btnFries" Content="Fries" Click="btnFries_Click" Margin="96,21,508,217" Height="200"/>
-        <Button x:Name="btnGarlicBread" Content="Garlic Bread" Click="btnGarlicBread_Click" Margin="297,21,307,217" Height="200"/>
-        <Button x:Name="btnMozzarellaStick" Content="Mozzarella Stick" Click="btnMozzarellaStick_Click" Margin="498,21,106,217" Height="200"/>
-        <Button x:Name="btnSpringRoll" Content="Spring Roll" Click="btnSpringRoll_Click" Margin="96,274,508,56" Height="200"/>
-        <Button x:Name="btnLoadedNachos" Content="Loaded Nachos" Click="btnLoadedNachos_Click" Margin="297,274,307,56" Height="200"/>
-        <Button x:Name="btnPoutine" Content="Poutine" Click="btnPoutine_Click" Margin="498,274,106,56" Height="200"/>
+        <Button x:Name="btnFries" Content="Fries" Click="btnFries_Click" Margin="96,72,508,267" Height="200" Grid.RowSpan="2" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold"/>
+        <Button x:Name="btnGarlicBread" Content="Garlic Bread" Click="btnGarlicBread_Click" Margin="297,72,307,267" Height="200" Grid.RowSpan="2" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold"/>
+        <Button x:Name="btnMozzarellaStick" Content="Mozzarella Stick" Click="btnMozzarellaStick_Click" Margin="498,72,106,267" Height="200" Grid.RowSpan="2" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold"/>
+        <Button x:Name="btnSpringRoll" Content="Spring Roll" Click="btnSpringRoll_Click" Margin="96,277,508,62" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold"/>
+        <Button x:Name="btnLoadedNachos" Content="Loaded Nachos" Click="btnLoadedNachos_Click" Margin="297,277,307,62" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold"/>
+        <Button x:Name="btnPoutine" Content="Poutine" Click="btnPoutine_Click" Margin="498,277,106,62" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold"/>
     </Grid>
 </Window>
