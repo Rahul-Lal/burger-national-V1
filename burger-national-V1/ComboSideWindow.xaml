@@ -10,32 +10,34 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Images/burger-national-logo.png" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Button x:Name="btnFries" Content="Fries" Click="btnFries_Click" Margin="96,72,480,267" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
+        <Label x:Name="lblInstruction" Content="Select a side for you combo" Foreground="FloralWhite" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,12,0,0" FontSize="50" FontFamily="Bahnschrift" />
+
+        <Button x:Name="btnFries" Content="Fries" Click="btnFries_Click" Margin="92,109,494,230" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" Opacity="0.75" ImageSource="/Assets/Images/Sides/Medium Fries.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnGarlicBread" Content="Garlic Bread" Click="btnGarlicBread_Click" Margin="297,70,279,269" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
+        <Button x:Name="btnGarlicBread" Content="Garlic Bread" Click="btnGarlicBread_Click" Margin="293,107,293,232" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" Opacity="0.75" ImageSource="/Assets/Images/Sides/Garlic Bread.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnMozzarellaStick" Content="Mozzarella Stick" Click="btnMozzarellaStick_Click" Margin="498,72,78,267" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
+        <Button x:Name="btnMozzarellaStick" Content="Mozzarella Stick" Click="btnMozzarellaStick_Click" Margin="494,109,92,230" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" Opacity="0.75" ImageSource="/Assets/Images/Sides/Mozzerella Sticks.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnSpringRoll" Content="Spring Roll" Click="btnSpringRoll_Click" Margin="96,277,480,62" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
+        <Button x:Name="btnSpringRoll" Content="Spring Roll" Click="btnSpringRoll_Click" Margin="92,314,494,25" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" Opacity="0.75" ImageSource="/Assets/Images/Sides/Spring Roll.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnLoadedNachos" Content="Loaded Nachos" Click="btnLoadedNachos_Click" Margin="297,277,279,62" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
+        <Button x:Name="btnLoadedNachos" Content="Loaded Nachos" Click="btnLoadedNachos_Click" Margin="293,314,293,25" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" Opacity="0.75" ImageSource="/Assets/Images/Sides/Loaded Nachos with Spicy Toppings.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnPoutine" Content="Poutine" Click="btnPoutine_Click" Margin="498,277,78,62" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
+        <Button x:Name="btnPoutine" Content="Poutine" Click="btnPoutine_Click" Margin="494,314,92,25" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
                 <ImageBrush Stretch="UniformToFill" Opacity="0.75" ImageSource="/Assets/Images/Sides/Delicious Poutine in Takeout Box.png"/>
             </Button.Background>
