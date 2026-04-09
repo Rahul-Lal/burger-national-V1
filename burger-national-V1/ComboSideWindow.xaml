@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Images/burger-national-logo.png" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Label x:Name="lblInstruction" Content="Select a side for you combo" Foreground="FloralWhite" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,12,0,0" FontSize="50" FontFamily="Bahnschrift" />
+        <Label x:Name="lblInstruction" Content="Select a side for you combo" Foreground="FloralWhite" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,15,0,0" FontSize="50" FontFamily="Bahnschrift" />
 
         <Button x:Name="btnFries" Content="Fries" Click="btnFries_Click" Margin="92,109,494,230" Height="200" FontSize="20" FontFamily="Bahnschrift" BorderBrush="#FFCCCCCC" Foreground="FloralWhite" FontWeight="Bold" Width="175">
             <Button.Background>
