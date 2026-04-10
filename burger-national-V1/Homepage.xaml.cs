@@ -200,6 +200,7 @@ namespace burger_national_V1
                 makeCombo.Close();
             }
             makeCombo.Close();
+            Console.WriteLine("Combo:");
         }
 
         private void printMenuItem(string menuItem, double price)
@@ -262,7 +263,7 @@ namespace burger_national_V1
             if ((comboSide.makeGarlicBread == true) || (comboSide.makeMozzarellaStick == true) || (comboSide.makeSpringRoll == true))
             {
                 combo += comboSide.chosenSide + "\n";
-                txtPrices.Text += "$1.00\n\n";
+                txtPrices.Text += "$1.00\n";
                 total += 1.00;
                 comboSide.Close();
             }
@@ -291,7 +292,7 @@ namespace burger_national_V1
             if (comboDrink.isSoda == true)
             {
                 combo += $"{size} " + comboDrink.chosenDrink + "\n";
-                txtPrices.Text += "\n\n";
+                txtPrices.Text += "\n";
                 comboDrink.isSoda = false;
                 comboDrink.Close();
             }
