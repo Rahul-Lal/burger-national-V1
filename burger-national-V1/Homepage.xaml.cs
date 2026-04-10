@@ -202,34 +202,6 @@ namespace burger_national_V1
             makeCombo.Close();
         }
 
-        private void drinkOption(string combo, string size)
-        {
-            ComboDrinkWindow comboDrink = new ComboDrinkWindow();
-            comboDrink.ShowDialog();
-
-            if (comboDrink.isSoda == true)
-            {
-                combo += $"{size} " + comboDrink.chosenDrink + "\n";
-                txtPrices.Text += "\n\n";
-                comboDrink.isSoda = false;
-                comboDrink.Close();
-            }
-            else if (comboDrink.isShake == true)
-            {
-                combo += $"{comboDrink.chosenDrink}\n";
-                txtPrices.Text += "$3.00\n";
-                total += 3.00;
-                comboDrink.isShake = false;
-                comboDrink.Close();
-            }
-            else
-            {
-                comboDrink.Close();
-            }
-
-            txtOutput.Text += combo;
-        }
-
         private void printMenuItem(string menuItem, double price)
         {
             txtOutput.Text += menuItem.ToString() + "\n";
@@ -297,18 +269,46 @@ namespace burger_national_V1
             else if ((comboSide.makeLoadedNachos == true) || (comboSide.makePoutine == true))
             {
                 combo += comboSide.chosenSide + "\n";
-                txtPrices.Text += "$3.50\n\n";
+                txtPrices.Text += "$3.50\n";
                 total += 3.50;
                 comboSide.Close();
             }
             else
             {
                 combo += $"{size} " + comboSide.chosenSide + "\n";
-                txtPrices.Text += "\n\n";
+                txtPrices.Text += "\n";
                 comboSide.Close();
             }
             drinkOption(combo, size);
 
+        }
+
+        private void drinkOption(string combo, string size)
+        {
+            ComboDrinkWindow comboDrink = new ComboDrinkWindow();
+            comboDrink.ShowDialog();
+
+            if (comboDrink.isSoda == true)
+            {
+                combo += $"{size} " + comboDrink.chosenDrink + "\n";
+                txtPrices.Text += "\n\n";
+                comboDrink.isSoda = false;
+                comboDrink.Close();
+            }
+            else if (comboDrink.isShake == true)
+            {
+                combo += $"{comboDrink.chosenDrink}\n";
+                txtPrices.Text += "$3.00\n";
+                total += 3.00;
+                comboDrink.isShake = false;
+                comboDrink.Close();
+            }
+            else
+            {
+                comboDrink.Close();
+            }
+
+            txtOutput.Text += combo;
         }
 
         private void btnClearOrder_Click(object sender, RoutedEventArgs e)
