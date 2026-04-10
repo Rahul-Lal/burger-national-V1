@@ -21,5 +21,107 @@ namespace burger_national_V1
         {
             InitializeComponent();
         }
+        public bool isSoda = false;
+        public bool isShake = false;
+
+        public string chosenDrink = "";
+
+        private void btnCoke_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "Coke";
+            this.Close();
+        }
+
+        private void btnCokeNS_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "Coke No Sugar";
+            this.Close();
+        }
+
+        private void btnJarritos_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "Jarritos Grapefruit";
+            this.Close();
+        }
+
+        private void btnIrnBru_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "Irn Bru";
+            this.Close();
+        }
+
+        private void btnLnP_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "LnP";
+            this.Close();
+        }
+
+        private void btnSparletta_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "Sparletta Cream Soda";
+            this.Close();
+        }
+
+        private void btnTing_Click(object sender, RoutedEventArgs e)
+        {
+            isSoda = true;
+            chosenDrink = "Ting";
+            this.Close();
+        }
+
+        private void btnMatchaShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Matcha Green Tea Shake";
+            this.Close();
+        }
+
+        private void btnChurroShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Churro Cinnamon Shake";
+            this.Close();
+        }
+
+        private void btnMangoLassiShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Mango Lassi Shake";
+            this.Close();
+        }
+
+        private void btnPandanCoconutShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Pandan Coconut Shake";
+            this.Close();
+        }
+
+        private void btnTiramisuShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Tiramisu Shake";
+            this.Close();
+        }
+
+        private void btnDulceDeLecheShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Dulce De Leche Shake";
+            this.Close();
+        }
+
+        private void btnDubaiChocolateShake_Click(object sender, RoutedEventArgs e)
+        {
+            isShake = true;
+            chosenDrink = "Dubai Chocolate Shake";
+            this.Close();
+        }
     }
 }
