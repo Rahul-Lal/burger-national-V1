@@ -1,0 +1,30 @@
+﻿<Window x:Class="burger_national_V1.ComboDrinkWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:burger_national_V1"
+        mc:Ignorable="d"
+        Title="Combo Drink Window" Height="500" Width="1050" Background="#FF252525">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/burger-national-logo.png"/>
+        </Grid.Background>
+        <Label Content="Choose Your Drink!" Margin="0,23,0,0" FontSize="50" Foreground="FloralWhite" FontFamily="Bahnschrift" Width="461" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontWeight="Bold" />
+        <Button x:Name="btnCoke" Content="Coke" Click="btnCoke_Click" Margin="17,109,893,195" Width="140" Height="180"/>
+        <Button x:Name="btnCokeNS" Content="CokeNS" Click="btnCokeNS_Click" Margin="162,109,748,195" Width="140" Height="180"/>
+        <Button x:Name="btnJarritos" Content="Jarritos" Click="btnJarritos_Click" Margin="307,109,603,195" Width="140" Height="180"/>
+        <Button x:Name="btnIrnBru" Content="Irn Bru" Click="btnIrnBru_Click" Margin="452,109,458,195" Width="140" Height="180"/>
+        <Button x:Name="btnLnP" Content="LnP" Click="btnLnP_Click" Margin="597,109,313,195" Width="140" Height="180"/>
+        <Button x:Name="btnSparletta" Content="Sparletta" Click="btnSparletta_Click" Margin="742,109,0,195" Width="140" Height="180" HorizontalAlignment="Left"/>
+        <Button x:Name="btnTing" Content="Ting" Click="btnTing_Click" Margin="887,109,23,195" Width="140" Height="180"/>
+
+        <Button x:Name="btnMatchaShake" Content="Matcha Green Tea Shake" Click="btnMatchaShake_Click" Margin="17,294,893,10" Width="140" Height="180"/>
+        <Button x:Name="btnChurroShake" Content="Churro Cinnamon Shake" Click="btnChurroShake_Click" Margin="162,294,748,10" Width="140" Height="180"/>
+        <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Click="btnMangoLassiShake_Click" Margin="307,294,603,10" Width="140" Height="180"/>
+        <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Click="btnPandanCoconutShake_Click" Margin="452,294,458,10" Width="140" Height="180"/>
+        <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Click="btnTiramisuShake_Click" Margin="597,294,313,10" Width="140" Height="180"/>
+        <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Click="btnDulceDeLecheShake_Click" Margin="742,294,168,10" Width="140" Height="180" RenderTransformOrigin="0.267,0.495"/>
+        <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Click="btnDubaiChocolateShake_Click" Margin="887,294,23,10" Width="140" Height="180"/>
+    </Grid>
+</Window>
