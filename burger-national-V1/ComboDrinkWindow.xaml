@@ -11,13 +11,41 @@
             <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/burger-national-logo.png"/>
         </Grid.Background>
         <Label Content="Choose Your Drink!" Margin="0,23,0,0" FontSize="50" Foreground="FloralWhite" FontFamily="Bahnschrift" Width="461" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontWeight="Bold" />
-        <Button x:Name="btnCoke" Content="Coke" Click="btnCoke_Click" Margin="17,109,893,195" Width="140" Height="180"/>
-        <Button x:Name="btnCokeNS" Content="CokeNS" Click="btnCokeNS_Click" Margin="162,109,748,195" Width="140" Height="180"/>
-        <Button x:Name="btnJarritos" Content="Jarritos" Click="btnJarritos_Click" Margin="307,109,603,195" Width="140" Height="180"/>
-        <Button x:Name="btnIrnBru" Content="Irn Bru" Click="btnIrnBru_Click" Margin="452,109,458,195" Width="140" Height="180"/>
-        <Button x:Name="btnLnP" Content="LnP" Click="btnLnP_Click" Margin="597,109,313,195" Width="140" Height="180"/>
-        <Button x:Name="btnSparletta" Content="Sparletta" Click="btnSparletta_Click" Margin="742,109,0,195" Width="140" Height="180" HorizontalAlignment="Left"/>
-        <Button x:Name="btnTing" Content="Ting" Click="btnTing_Click" Margin="887,109,23,195" Width="140" Height="180"/>
+        <Button x:Name="btnCoke" Content="Coke" Click="btnCoke_Click" Margin="17,109,893,195" Width="140" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/Coca-Cola.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnCokeNS" Content="CokeNS" Click="btnCokeNS_Click" Margin="162,109,748,195" Width="140" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/CokeNS.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnJarritos" Content="Jarritos" Click="btnJarritos_Click" Margin="307,109,603,195" Width="140" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/Jarritos.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnIrnBru" Content="Irn Bru" Click="btnIrnBru_Click" Margin="452,109,458,195" Width="140" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/IrnBru.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLnP" Content="LnP" Click="btnLnP_Click" Margin="597,109,313,195" Width="140" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/LnP.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnSparletta" Content="Sparletta" Click="btnSparletta_Click" Margin="742,109,0,195" Width="140" Height="180" HorizontalAlignment="Left">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/Sparletta.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTing" Content="Ting" Click="btnTing_Click" Margin="887,109,23,195" Width="140" Height="180">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Drinks/ting.jpg"/>
+            </Button.Background>
+        </Button>
 
         <Button x:Name="btnMatchaShake" Content="Matcha Green Tea Shake" Click="btnMatchaShake_Click" Margin="17,294,893,10" Width="140" Height="180"/>
         <Button x:Name="btnChurroShake" Content="Churro Cinnamon Shake" Click="btnChurroShake_Click" Margin="162,294,748,10" Width="140" Height="180"/>
