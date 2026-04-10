@@ -307,7 +307,7 @@ namespace burger_national_V1
                 txtPrices.Text += "\n\n";
                 comboSide.Close();
             }
-            txtOutput.Text += combo + $"{size} Drink\n";
+            drinkOption(combo, size);
 
         }
 
