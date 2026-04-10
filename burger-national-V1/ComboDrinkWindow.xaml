@@ -47,12 +47,40 @@
             </Button.Background>
         </Button>
 
-        <Button x:Name="btnMatchaShake" Content="Matcha Green Tea Shake" Click="btnMatchaShake_Click" Margin="17,294,893,10" Width="140" Height="180"/>
-        <Button x:Name="btnChurroShake" Content="Churro Cinnamon Shake" Click="btnChurroShake_Click" Margin="162,294,748,10" Width="140" Height="180"/>
-        <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Click="btnMangoLassiShake_Click" Margin="307,294,603,10" Width="140" Height="180"/>
-        <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Click="btnPandanCoconutShake_Click" Margin="452,294,458,10" Width="140" Height="180"/>
-        <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Click="btnTiramisuShake_Click" Margin="597,294,313,10" Width="140" Height="180"/>
-        <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Click="btnDulceDeLecheShake_Click" Margin="742,294,168,10" Width="140" Height="180" RenderTransformOrigin="0.267,0.495"/>
-        <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Click="btnDubaiChocolateShake_Click" Margin="887,294,23,10" Width="140" Height="180"/>
+        <Button x:Name="btnMatchaShake" Content="Matcha Green Tea Shake" Foreground="FloralWhite" Click="btnMatchaShake_Click" Margin="17,294,893,10" Width="140" Height="180" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/Desserts/Matcha Shake.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnChurroShake" Content="Churro Cinnamon Shake" Foreground="FloralWhite" Click="btnChurroShake_Click" Margin="162,294,748,10" Width="140" Height="180" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/Desserts/Churro Cinnamon Shake.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnMangoLassiShake" Content="Mango Lassi Shake" Foreground="FloralWhite" Click="btnMangoLassiShake_Click" Margin="307,294,603,10" Width="140" Height="180" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Desserts/Mango Lassi Shake.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnPandanCoconutShake" Content="Pandan Coconut Shake" Foreground="FloralWhite" Click="btnPandanCoconutShake_Click" Margin="452,294,458,10" Width="140" Height="180" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/Desserts/Pandan Coconut Shake.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnTiramisuShake" Content="Tiramisu Shake" Foreground="FloralWhite" Click="btnTiramisuShake_Click" Margin="597,294,313,10" Width="140" Height="180" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Desserts/Tiramisu Shake.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnDulceDeLecheShake" Content="Dulce De Leche Shake" Foreground="FloralWhite" Click="btnDulceDeLecheShake_Click" Margin="742,294,168,10" Width="140" Height="180" RenderTransformOrigin="0.267,0.495" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush ImageSource="/Assets/Images/Desserts/Dulce De Leche Shake.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnDubaiChocolateShake" Content="Dubai Chocolate Shake" Foreground="FloralWhite" Click="btnDubaiChocolateShake_Click" Margin="887,294,23,10" Width="140" Height="180" FontFamily="Bahnschrift">
+            <Button.Background>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/Images/Desserts/Dubai Chocolate Shake.png"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
