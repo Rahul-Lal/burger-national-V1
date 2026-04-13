@@ -65,8 +65,8 @@ namespace burger_national_V1
             _home.txtOutput.Text += chickenOtherOne + "\n";
             _home.txtOutput.Text += chickenOtherTwo + "\n";
 
-            _home.txtOutput.Text += "4 Small Fries\n";
-            _home.txtOutput.Text += "4 Small Drinks\n";
+            _home.txtOutput.Text += "4 Regular Fries\n";
+            _home.txtOutput.Text += "4 Regular Drinks\n";
         }
 
         public void btnOK_Click(object sender, RoutedEventArgs e)
