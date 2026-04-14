@@ -8,7 +8,7 @@
         Title="Combo Drink Window" Height="750" Width="1500" Background="#FF252525">
     <Grid>
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="/Assets/Images/burger-national-logo.png"/>
+            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Images/burger-national-logo.png"/>
         </Grid.Background>
         <Label Content="Choose Your Drink!" Margin="0,57,0,0" FontSize="50" Foreground="FloralWhite" FontFamily="Bahnschrift" Width="462" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontWeight="Bold" />
         <Button x:Name="btnCoke" Click="btnCoke_Click" Margin="42,148,1120,271" Width="175" Height="225" Opacity="0.75">
