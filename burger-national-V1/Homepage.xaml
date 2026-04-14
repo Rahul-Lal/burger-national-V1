@@ -18,12 +18,12 @@
             </StackPanel>
         </ScrollViewer>
 
-        <TabControl Margin="423,0,0,167" HorizontalAlignment="Left" Width="1534" FontWeight="Bold" BorderThickness="3,1,3,1">
+        <TabControl Margin="423,0,0,160" HorizontalAlignment="Left" Width="1534" FontWeight="Bold" BorderThickness="3,1,3,1">
             <TabControl.Background>
                 <ImageBrush Stretch="Fill"/>
             </TabControl.Background>
             <TabItem x:Name="btnEuropeanBurger" Header="European Burger" Width="250" Height="100" FontSize="28" HorizontalAlignment="Left" FontFamily="Bahnschrift" FontWeight="Bold" BorderThickness="3,0,3,0" Foreground="DarkRed" Background="#FF0957D6">
-                <Grid HorizontalAlignment="Left" Width="1498" Height="818" VerticalAlignment="Center">
+                <Grid HorizontalAlignment="Left" Width="1498" Height="824" VerticalAlignment="Center">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
                         <RowDefinition Height="*"/>
